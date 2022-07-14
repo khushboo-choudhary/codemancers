@@ -1,0 +1,27 @@
+.gifs{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    height: 250px;
+    width: 50%;
+    overflow: scroll;
+    overflow-x: hidden;
+    border: 2px solid blue;
+}
+.inputGif{
+    
+    height: 20px;
+    border: 1px solid #242526;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+
+}
+.inputGif::placeholder{
+    font-size: 1.5em;
+    color: #b8b6b6;
+    font-weight: 400;
+}
+
+.gifImages{
+    cursor: pointer;
+}
